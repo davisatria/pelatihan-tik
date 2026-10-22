@@ -1,27 +1,25 @@
 body {
-  background-color: #00ff00; /*warna hijau cerah */
-  font-family:Arial, sans-serif; /*jenis huruf yang bersih dan sudah dibaca */
-  color:#191970; /* Warna teks utama (biru gelap) */
+  background-color: #00ff00; /* Warna hijau cerah */
+  font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+  color: #191970; /* Warna teks utama (biru gelap) */
 }
-.kartu-profil {
-witdh: 300px;
-margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-padding: 20px;
-  background-color: white;
-  border-radius: 15px /* membuat sudut menjadi melengkung */
-  box-shadow: 0 4px 8px rgba(0,0,0,0,1); /*Efek bayangan */
-  }
 
+.kartu-profil {
+  width: 300px; /* Perbaikan typo dari witdh */
+  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px; /* Ditambahkan titik koma (;) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Perbaikan format rgba (transparansi 0.1) */
+  text-align: center; /* Digabungkan ke sini agar lebih rapi */
+}
 
 .kartu-profil img {
   width: 150px;
-  border-radius: 50%; /* Trik membuat gambar persegi menjadi lingkaran sempurna */
+  height: 150px; /* Opsional: tambahkan height agar gambar tetap simetris/presisi */
+  object-fit: cover; /* Mencegah gambar terdistorsi saat dijadikan lingkaran */
+  border-radius: 50%; /* Trik membuat gambar menjadi lingkaran sempurna */
 }
-.kartu-profil {
-  /* ... (kode dari slide sebelumnya) ...*/
-text-align: center; /* menengahkan semua teks di dalam kartu */
-}
-
 
 
 
